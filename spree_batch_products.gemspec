@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.4'
-  s.add_dependency 'spree_backend', '~> 2.4'
+  s.add_dependency 'solidus_core', '~> 1.4'
+  s.add_dependency 'solidus_backend', '~> 1.4'
   s.add_dependency 'fastercsv', '~> 1.5.5'
   s.add_dependency 'batch_factory'
 
